@@ -6,7 +6,7 @@ Database task:
 2. Please add appropriate constraints (primary keys, foreign keys, indexes, etc.)
 3. Design such kind of database for PostrgeSQL. Show your design in some suitable way (PDF, PNG, etc). (2 points)
 4. Try different kind of indexes (B-tree, Hash, GIN, GIST) for your fields. Analyze performance for each of the indexes (use ANALYZE and EXPLAIN). Check the size of the index. Try to set index before inserting test data and after. What was the time? Test data:
-    * 100K of users
+    * 100K of student
     * 1K of subjects
     * 1 million of marks
 

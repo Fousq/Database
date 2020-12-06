@@ -12,17 +12,17 @@ Database task:
 
 Test queries:
 
-* Find user by name (exact match)
-* Find user by surname (partial match)
-* Find user by phone number (partial match)
-* Find user with marks by user surname (partial match)
+* Find student by name (exact match)
+* Find student by surname (partial match)
+* Find student by phone number (partial match)
+* Find student with marks by student's surname (partial match)
 
 Add to separate document your investigation. (2 points)
 
 1. Add trigger that will update column updated_datetime to current date in case of updating any of student. (1 point)
-2. Add validation on DB level that will check username on special characters (reject student name with next characters '@', '#', '$') (1 point)
+2. Add validation on DB level that will check name on special characters (reject student name with next characters '@', '#', '$') (1 point)
 3. Create snapshot that will contain next data: student name, student surname, subject name, mark (snapshot means that in case of changing some data in source table – your snapshot should not change) (1 point)
-4. Create function that will return average mark for input user (1 point)
+4. Create function that will return average mark for input student (1 point)
 5. Create function that will return avarage mark for input subject name (1 point)
 6. Create function that will return student at "red zone" (red zone means at least 2 marks <=3) (1 point)
 7. Extra point (1 point). Show in tests (java application) transaction isolation phenomena. Describe what kind of phenomena is it and how did you achieve it.
